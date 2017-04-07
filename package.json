@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"random-string",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "random-string",
+    "description": "api documentation for [random-string (v0.1.2)](https://github.com/valiton/node-random-string) [![npm package](https://img.shields.io/npm/v/npmdoc-random-string.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-random-string) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-random-string.svg)](https://travis-ci.org/npmdoc/node-npmdoc-random-string)",
     "devDependencies": {
-        "random-string": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "random-string": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-random-string",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-random-string",
+    "keywords": [
+        "documentation",
+        "random-string"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_random_string.js",
+    "name": "npmdoc-random-string",
+    "nameAlias": "npmdoc_random_string",
+    "nameOriginal": "npmdoc-random-string",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-random-string"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
