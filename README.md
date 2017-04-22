@@ -1,9 +1,14 @@
-# api documentation for  [random-string (v0.1.2)](https://github.com/valiton/node-random-string)  [![npm package](https://img.shields.io/npm/v/npmdoc-random-string.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-random-string) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-random-string.svg)](https://travis-ci.org/npmdoc/node-npmdoc-random-string)
+# npmdoc-random-string
+
+#### api documentation for  [random-string (v0.2.0)](https://github.com/valiton/node-random-string)  [![npm package](https://img.shields.io/npm/v/npmdoc-random-string.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-random-string) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-random-string.svg)](https://travis-ci.org/npmdoc/node-npmdoc-random-string)
+
 #### Simple Module for generating Random Strings
 
-[![NPM](https://nodei.co/npm/random-string.png?downloads=true)](https://www.npmjs.com/package/random-string)
+[![NPM](https://nodei.co/npm/random-string.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/random-string)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-random-string/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-random-string_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-random-string/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-random-string/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-random-string/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-random-string/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-random-string/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-random-string/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Valiton GmbH, Bastian 'hereandnow' Behrens",
-        "email": "bastian.behrens@valiton.com"
+        "name": "Valiton GmbH, Bastian 'hereandnow' Behrens"
     },
     "bugs": {
         "url": "https://github.com/valiton/node-random-string/issues"
@@ -33,13 +37,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "2d6afb6076651316ac5b8a62d63106db31eb8d44",
-        "tarball": "https://registry.npmjs.org/random-string/-/random-string-0.1.2.tgz"
+        "shasum": "a46e4375352beda9a0d7b0d19ed6d321ecd1d82d",
+        "tarball": "https://registry.npmjs.org/random-string/-/random-string-0.2.0.tgz"
     },
     "engines": {
-        "node": ">= 0.6.0"
+        "node": ">= 0.10.0"
     },
-    "gitHead": "917b7fb8811984f6bc341bfa0d2372b5959d5dd2",
+    "gitHead": "bb252c31cb5298e82bf3549333dd5bee8c0bea11",
     "homepage": "https://github.com/valiton/node-random-string",
     "keywords": [
         "random",
@@ -54,29 +58,23 @@
     "main": "lib/random-string",
     "maintainers": [
         {
-            "name": "hereandnow",
-            "email": "hereandnow78@googlemail.com"
+            "name": "hereandnow"
         },
         {
-            "name": "mom",
-            "email": "m.omay@mgok.de"
+            "name": "mom"
         },
         {
-            "name": "weiner",
-            "email": "benediktweiner@gmail.com"
+            "name": "weiner"
         },
         {
-            "name": "sebakotiv",
-            "email": "gleb@catforce.de"
+            "name": "sebakotiv"
         },
         {
-            "name": "mcpomm",
-            "email": "prima34@gmx.net"
+            "name": "mcpomm"
         }
     ],
     "name": "random-string",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/valiton/node-random-string.git"
@@ -84,19 +82,10 @@
     "scripts": {
         "test": "grunt nodeunit"
     },
-    "version": "0.1.2"
+    "version": "0.2.0",
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module random-string](#apidoc.module.random-string)
-
-
-
-# <a name="apidoc.module.random-string"></a>[module random-string](#apidoc.module.random-string)
 
 
 
